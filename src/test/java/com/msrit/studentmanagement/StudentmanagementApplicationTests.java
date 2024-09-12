@@ -44,7 +44,7 @@ public class StudentmanagementApplicationTests {
 						.content(toJson(student)))
 				.andExpect(status().isCreated())
 				.andExpect(content().contentType(MediaType.APPLICATION_JSON))
-				.andExpect(jsonPath("$.usn", is("1ms24cs125")));
+				.andExpect(jsonPath("$.usn", is("1ms24cs1255")));
 	}
 
 	@Test
